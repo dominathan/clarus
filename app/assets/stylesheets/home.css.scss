@@ -1,17 +1,35 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html,body{
+  height:100%;
+}
 
+#container-all {
+  width: 100%;
+}
 
-  #home-page {
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
-
-    h1{
-      font-family: 'Open Sans Condensed', sans-serif;
-      font-size: 4em;
-      font-weight: normal;
-      text-align: center;
-    }
-
+#home-page {
+  background-color: DodgerBlue;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+  h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4em;
+    font-weight: normal;
+    text-align: center;
   }
+}
+
+#footer {
+background-color: DodgerBlue;
+border-top: 1px solid DodgerBlue;
+padding: 20px;
+text-align: center;
+font-size: .8em;
+min-height: 80px;
+width: 100%;
+position: absolute;
+bottom: 0px;
+text-align: center;
+}

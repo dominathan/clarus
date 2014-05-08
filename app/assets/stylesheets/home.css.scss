@@ -33,3 +33,34 @@ position: absolute;
 bottom: 0px;
 text-align: center;
 }
+
+
+.devise-signup {
+  margin: 3em auto 12em;
+  max-width: 600px;
+  h2{
+    margin-top: 1em;
+    margin-bottom: .5em;
+    margin-left: 0px;
+    font-size: 3rem;
+  }
+  .form-inputs{
+    label{
+      font-size: 25px;
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+    input{
+      width: 350px;
+      height: 30px;
+      font-size: 25px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    select{
+      width: 550px;
+      height: 250px;
+      font-size: 25px;
+    }
+  }
+}

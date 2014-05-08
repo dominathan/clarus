@@ -7,6 +7,7 @@ gem 'devise', '3.2.4' #authentication management
 gem 'figaro', '0.7.0' #manage environement variables
 gem 'thin', '1.6.1'
 gem 'jquery-rails'
+gem 'less-rails'
 
 #rails 4 deprecated use of :assets group in gemfile
 gem 'sass-rails', '~> 4.0.2'

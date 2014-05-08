@@ -2,13 +2,19 @@
 <html>
 <head>
   <title>Clarus</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= javascript_include_tag 'application'  %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
-<%= yield %>
-
+  <div class = "container">
+    <%= yield %>
+  </div>
+  <footer>
+    <div class ="container">
+      Clarus Consulting Group 2014
+    </div>
+  </footer>
 </body>
 </html>
